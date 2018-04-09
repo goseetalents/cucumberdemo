@@ -1,6 +1,6 @@
 const { setWorldConstructor } = require( 'cucumber' )
 
-class WorldOfSearch {
+class BankWorld {
 
     constructor() {
         this.accounts = {}
@@ -20,4 +20,4 @@ class WorldOfSearch {
     }
 }
 
-setWorldConstructor(WorldOfSearch);
+setWorldConstructor(BankWorld);
